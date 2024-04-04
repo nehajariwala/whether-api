@@ -4,6 +4,7 @@ const uimaker = (data) =>{
 
      let temp=`<div>
      <i class="fa-solid fa-cloud"></i>
+     <i class="fa-solid fa-bolt"></i>
      <p>${data.name}</p>
      <h1>${data.main.temp}</h1>
      <h2>max-temp:${data.main.temp_max},min-temp:${data.main.temp_min}</h2>
